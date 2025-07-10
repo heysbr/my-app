@@ -19,7 +19,7 @@ export default function Login() {
   };
   return (
     <div className="w-full flex-1 flex flex-col gap-y-5 h-96 max-w-sm bg-white p-10 rounded-l-2xl border-r-4 border-gray-500 ">
-      <h1 className="text-2xl font-bold text-center mb-6">Login</h1>
+      <h1 className="text-2xl font-bold text-center mb-6 font">Login</h1>
       {/* Username Field */}
       <input
         type="text"
