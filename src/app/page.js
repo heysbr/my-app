@@ -1,3 +1,4 @@
+import DynamicRoute from "@/component/DynamicRoute";
 import Login from "@/component/Login";
 import Profile from "@/component/Profile";
 import UserContextProvider from "@/context/UserContextProvider";
