@@ -1,5 +1,14 @@
 import Link from "next/link";
 
+
+export async function generateStaticParams() {
+  const productIds = ["1", "2", "3"]; 
+
+  return productIds.map((id) => ({
+    id,
+  }));
+}
+
 export default async function ProductPage({ params }) {
   const { id } = await params; 
 
